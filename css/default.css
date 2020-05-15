@@ -1,0 +1,36 @@
+/* 
+COLORS:
+    #B63114;
+    #181C37;
+    #BB9881;
+    #75574A;
+    #191615;
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body{
+    font-family: 'Didact Gothic', sans-serif;
+    line-height: 2em;
+    /*var(--color-secondary)*/
+     scroll-behavior: smooth;
+}
+:root{
+    --color-primary:#181C37;
+    --color-secondary:#BB9881;
+    --color-accent:#B63114;
+}
+/*~~~~~~~~~~~~~~*/
+/* SCROLLBAR  */
+/*~~~~~~~~~~~~~~*/
+/*total width of scroll bar*/
+::-webkit-scrollbar{ width: 8px;}
+
+/* color of track */
+::-webkit-scrollbar-track{ background-color: var(--color-primary); }
+  
+/* scrollbar */
+::-webkit-scrollbar-thumb{ background-color: var(--color-secondary); }
+
+/* scrollbar hover*/
+::-webkit-scrollbar-thumb:hover{ background-color: var(--color-accent); }

@@ -1,0 +1,17 @@
+.header{
+    height: 90vh;
+
+    /* transform: translateZ(-1px) scale(2); */
+    background-image: url(/images/weight-lifting.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.top-navigation{ background: var(--color-primary); padding: 1em 3em; }
+
+.website-logo{ flex-basis: 15%; }
+
+.unordered-list{ flex-basis: 50%; }
+
+.list a{ color: var(--color-secondary);}
+.list a:hover{ text-decoration: underline; }

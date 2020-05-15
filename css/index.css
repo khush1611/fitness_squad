@@ -1,0 +1,87 @@
+.page-wrapper{
+    /* perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll; */
+}
+.main{
+    /*position: relative;
+    display: block;
+    background-color: white;
+    z-index: 1; */
+}
+/*````````````````````````````````````*/
+/* SECTION - ABOUT */
+/*````````````````````````````````````*/
+.section-about{ 
+    margin-bottom: 3em; 
+    padding: 5em 5em 1em 5em;
+    background-color: var(--color-secondary); 
+    /* clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);  */
+    clip-path: polygon(52% 100%, 100% 92%, 100% 0, 0 0, 0 93%);
+    }
+
+.about-conatiner{ max-width: 30em; margin: 0 auto;}
+.about-conatiner__video{
+    max-width: 100%;
+    margin: auto 0;
+    clip-path: polygon(52% 100%, 100% 92%, 100% 0, 0 0, 0 93%);
+}
+/*````````````````````````````````````*/
+/* SECTION - SERVICE */
+/*````````````````````````````````````*/
+.section-service { margin-bottom: 3em; max-width:70em; margin: 0 auto; }
+
+.service-container__image{ width: 100%; height: 30em; border-radius: 0.2em;}
+
+/*````````````````````````````````````*/
+/* SECTION - COACH */
+/*````````````````````````````````````*/
+.section-coach{ 
+    margin-top: 3em;
+    margin-bottom: 2em; 
+    padding: 2em;  
+    background-color: var(--color-primary);  
+    color: var(--color-secondary);
+    clip-path: polygon(50% 0%, 100% 4%, 100% 100%, 0 100%, 0 5%);
+}
+.section-coach h2{  color: var(--color-secondary);}
+/* .team{ background-color: var(--color-primary); flex-basis: 20%;}
+.team-heading{  
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: var(--color-secondary);
+    font-size: 3em;
+    padding: 2em;
+} */
+
+.team-information{ width: 65%; margin: 0 auto;}
+.team-container__image{ width: 100%; border-radius: 0.3em;}
+.team-container__content{ }
+.coach-info{flex-basis:90%;}
+.coach-social{ flex: 1;}
+.coach-social__icon{font-size: 1em; color: var(--color-secondary);}
+
+/*````````````````````````````````````*/
+/* SECTION - IMAGE */
+/*````````````````````````````````````*/
+.section-gallery{ margin-bottom: 2em;}
+.gallery{ margin: 0 auto; max-width: 70em;}
+.gallery__image{ width: 100%; height: 15em;}
+.gallery .col-equal-5{margin: .1em}
+/*````````````````````````````````````*/
+/* SECTION - FOOTER */
+/*````````````````````````````````````*/
+.footer{ background-color: var(--color-primary); color: var(--color-secondary); padding: 2em 15em; font-size: .9em;}
+
+.footer h2{ color:var(--color-secondary); font-size: 3em; margin-bottom: 1em;}
+.footer h3{ font-weight: bold;}
+.footer-content{ width: 20em;}
+
+.social-media{ width: 8em; }
+.social-media__list{ list-style-type: none;}
+.social-media__icon{ font-size: 2em; color: var(--color-secondary);}
+
+.footer a{ color: var(--color-secondary);}
+.footer a:hover{ color: rgb(128, 105, 90);}
