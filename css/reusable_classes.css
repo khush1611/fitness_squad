@@ -30,7 +30,7 @@ a{ text-decoration: none;}
 
 .border-radius-xthin{ border-radius: .2em; }
 
-.heading { font-size: 3em; text-transform: capitalize; margin-bottom: 1em; color:var(--color-primary);}
+.heading { font-size: 3em; text-transform: capitalize; margin-bottom: 1em; color:var(--color-secondary);}
 .title { text-transform: capitalize; color:var(--color-accent); }
 
 .btn-explore{ color:var(--color-accent); transition: all 0.3s ease-in-out 0s;}

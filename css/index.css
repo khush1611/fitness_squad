@@ -17,10 +17,12 @@
 .section-about{ 
     margin-bottom: 3em; 
     padding: 5em 5em 1em 5em;
-    background-color: var(--color-secondary); 
+    background-color: var(--color-primary); 
     /* clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);  */
     clip-path: polygon(52% 100%, 100% 92%, 100% 0, 0 0, 0 93%);
     }
+
+.section-about p{ color:#D9C0BE;}
 
 .about-conatiner{ max-width: 30em; margin: 0 auto;}
 .about-conatiner__video{

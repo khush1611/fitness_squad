@@ -1,11 +1,10 @@
 /* 
 COLORS:
-    #B63114;
-    #181C37;
-    #BB9881;
-    #75574A;
-    #191615;
-
+    #BE5A64
+    #D9C0BE
+    #323D45
+    #85676C
+    #0D1116
 */
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
@@ -14,11 +13,12 @@ body{
     line-height: 2em;
     /*var(--color-secondary)*/
      scroll-behavior: smooth;
+     color:var(--color-accent);
 }
 :root{
-    --color-primary:#181C37;
-    --color-secondary:#BB9881;
-    --color-accent:#B63114;
+    --color-primary:#323D45;
+    --color-secondary:#BE5A64;
+    --color-accent:#0D1116;
 }
 /*~~~~~~~~~~~~~~*/
 /* SCROLLBAR  */
