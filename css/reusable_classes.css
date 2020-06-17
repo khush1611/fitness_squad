@@ -6,6 +6,7 @@
 .col-equal-3{ flex-basis: calc(100% / 3);}
 .col-equal-5{ flex-basis: calc(100% / 5);}
 .col-3{ flex-basis: calc(85% / 3);}
+.col-4{ flex-basis: calc(80% / 4);}
 
 .img-block { display: block;}
 
@@ -33,6 +34,16 @@ a{ text-decoration: none;}
 .heading { font-size: 3em; text-transform: capitalize; margin-bottom: 1em; color:var(--color-secondary);}
 .title { text-transform: capitalize; color:var(--color-accent); }
 
+.button{
+    color:var(--color-secondary); 
+    background-color: var(--color-accent); 
+    
+    border:0;
+    padding: 1em 3em;
+    margin: 2em;
+
+    transition: all 0.3s ease-in-out 0s;
+}
 .btn-explore{ color:var(--color-accent); transition: all 0.3s ease-in-out 0s;}
 .btn-explore:hover{ color:var(--color-secondary); }
 

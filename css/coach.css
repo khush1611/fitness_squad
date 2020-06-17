@@ -1,0 +1,17 @@
+.section-membership{ margin: 3em;}
+.membership-plans{ margin: 2em 4em;}
+.membership-box{
+    border: 0.2em solid #be5a648f;
+    border-radius: 0.6em;
+    padding: 2em;
+    text-align: center;
+
+    background-color: #be5a64b0;
+}
+.plan-title{ font-size: 2em; margin-bottom: 1em; text-transform: capitalize; }
+.price-tag{ font-size: 3em; margin-bottom: 1em;}
+.tag-line{ font-size: 1.5em;}
+.valid-month{ font-size: 1.5em;}
+
+.membership-listing{ background-color: var(--color-accent); padding: 1em;}
+.membership-listing li{ color: var(--color-secondary); margin-bottom: 1em;}

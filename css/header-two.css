@@ -1,0 +1,18 @@
+.body-header-two{  
+    background-image: url(../images/guy-gyming.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
+.header{
+    /* transform: translateZ(-1px) scale(2); */
+}
+.top-navigation{ background: var(--color-primary); padding: 1em 3em; }
+
+.website-logo{ flex-basis: 15%; }
+
+.website-logo img{ width: 6em;}
+
+.unordered-list{ flex-basis: 70%; align-items: center;}
+
+.list a{ color: var(--color-secondary); font-size: 1.5em;}
+.list a:hover{ text-decoration: underline; }
